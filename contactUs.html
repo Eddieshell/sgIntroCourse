@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            label {
+                
+                
+                width: 155px;
+                
+                margin-left: 5px;
+                text-align: right;
+                clear: both;
+                float:left;
+                margin-right:15px;
+            }
+            .tos {
+                margin-left: 170px;
+            }
+            .textBox {
+                width: 200px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <form action= "#" method="post">
+            <div>
+                <label id = "firstNameLabel" for = "firstName">First Name:</label>
+                <input class = "textBox" type = "text" id = "firstName" name = "firstName">
+            </div> </br>
+            <div>
+                <label id = "lastNameLabel" for = "lastName">Last Name:</label>
+                <input class = "textBox" type = "text" id = "lastName" name = "lastName">
+            </div> </br>
+            <div>
+                <label id = "emailAddressLabel" for = "emailAddress">Email:</label>
+                <input class = "textBox" type = "text" id = "emailAddress" name = "emailAddress">
+            </div> </br>
+            <div>
+                <label id = "typeOfLicenseLabel" for = "typeOfLicense">Type of License:</label>
+                <input type = "radio" id = "typeOfLicense" name = "typeOfLicense" value = "business" checked>
+                <span>Business</span>
+                <input type = "radio" id = "typeOfLicense" name = "typeOfLicense" value = "personal">
+                <span>Personal</span>
+            </div> </br>
+            <div>
+                <label id = "reason" for = "reason">Reason:</label>
+                <select>
+                    <option class = "textBox">Select a Reason</option>
+                    <option>Software Support</option>
+                    <option>Hardware Support</option>
+                    <option>Information Request</option>
+                </select>
+            </div> </br>
+            <div>
+                <label id = "additionalInfoLabel" for = "additionalInfo">Additional Information:</label>
+                <textarea class = "textBox" id = "additionalInfo" name = "additionalInfo"></textarea>
+            </div> </br>
+            <div class = "tos">
+                <input type = "checkbox" id = "TermsOfService" name = "TermsOfService">
+                <span>I have read the terms of service</span>
+            </div> </br>
+            <div>
+                <input style = "margin-left: 200px" type = "submit" id = "sendRequest" value = "Send Request">
+            </div> 
+        </form>
+    </body>
+</html>
