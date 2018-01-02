@@ -1,0 +1,18 @@
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+Total Height = 150 + 2(20px) + 2(1px) + 2(10px) = 212px
+Total Width = 400px + 2(20px) + 2(1px) + 2(10px) =  426px
+Browser calculated Height = 2(1px) + 2(20) + 150 = 192px
+Browser Calculated Weight = 2(1px) + 2(20) + 400 = 442px
